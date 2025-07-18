@@ -1,0 +1,21 @@
+{
+  "name": "ftp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+    "build": "electron-builder",
+    "test": "electron ."
+  },
+  "author": "fydne",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^19.0.8"
+  },
+  "dependencies": {
+    "appdata-path": "^1.0.0",
+    "nodejs-file-downloader": "^4.10.1",
+    "request": "^2.88.2",
+    "unzipper": "^0.10.11"
+  }
+}
